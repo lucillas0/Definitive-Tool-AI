@@ -1,12 +1,45 @@
 {
   "name": "definitive-tool-ia",
   "displayName": "Definitive Tool IA",
-  "version": "1.3.0",
-  "description": "8-moment UI router (brief, design, audit, code, find-skills, pitch, handoff, evolve) over Shark Tank skills + anime/three libs + reminder hook + commit QA gate + /shark-* commands.",
+  "version": "1.3.1",
+  "description": "plugin de IA que instala y usa skills automaticamente en los momentos: crear UI, revisar diseño, hacer auditorias, escribir codigo, buscar skills faltantes, comparar variantes, pasar a sistema de diseno y evolucionar interfaces viejas. Detecta el momento y delega en las skills correctas sin que tengas que recordartelo. Incluye router slim, plugin para Claude Code y Opencode, hook recordatorio, quality gate de commit, comandos /definitive-tool-* y guia para ChatGPT.",
   "author": {
     "name": "Lucas"
   },
-  "repository": "https://github.com/lucasmarkes/hairline",
+  "repository": "https://github.com/lucillas0/Definitive-Tool-AI",
   "license": "MIT",
-  "keywords": ["design", "ui", "ux", "motion", "shadcn", "playwright", "skills", "audit"]
+  "keywords": [
+    "design",
+    "ui",
+    "ux",
+    "motion",
+    "shadcn",
+    "playwright",
+    "skills",
+    "audit",
+    "router",
+    "ai-skills",
+    "claude-code-plugin",
+    "opencode-plugin",
+    "freebuff",
+    "chatgpt",
+    "shark-tank",
+    "design-system",
+    "componentes",
+    "automatizacion",
+    "productividad",
+    "desarrollo-frontend"
+  ],
+  "topics": [
+    "ai-skills",
+    "design-system",
+    "ui-ux",
+    "claude-code",
+    "opencode",
+    "freebuff",
+    "chatgpt",
+    "automatizacion",
+    "productividad",
+    "desarrollo-frontend"
+  ]
 }
