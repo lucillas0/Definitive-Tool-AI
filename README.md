@@ -23,7 +23,7 @@ El router `SKILL.md` detecta el momento (0-7) y solo lee el archivo necesario, s
 - `AGENTS.md.example` — bloque para `AGENTS.md` (Freebuff/Opencode/proyecto) que obliga a usar el router al diseñar.
 - `.claude-plugin/{plugin,marketplace}.json` — para distribuir como plugin de Claude Code.
 
-## Las 18 skills (de tu PDF)
+## Las 18 skills 
 
 shark, mirofish, hallmark, hairline, agent-reach, arena, motion-design, find-skills,
 thinking-orbs, ui-ux-pro-max, taste, awesome-claude-design, design-motion-principles,
