@@ -1,0 +1,5 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": ["./opencode/shark-design-plugin.js"],
+  "instructions": ["./skills/shark-design/SKILL.md"]
+}

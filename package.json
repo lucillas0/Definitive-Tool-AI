@@ -1,0 +1,13 @@
+{
+  "name": "@lucas/definitive-tool-ia",
+  "version": "1.3.0",
+  "description": "Definitive Tool IA: router de 8 momentos + plugin Opencode + skills de diseño y auditoría",
+  "type": "module",
+  "exports": "./opencode/shark-design-plugin.js",
+  "files": ["opencode/", "skills/", "commands/", "knowledge/", "skills.lock.json"],
+  "keywords": ["opencode", "design", "ui", "ux", "skills", "audit"],
+  "license": "MIT",
+  "peerDependencies": {
+    "@opencode-ai/plugin": "^1.0.0"
+  }
+}

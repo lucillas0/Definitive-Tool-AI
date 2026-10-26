@@ -1,0 +1,14 @@
+{
+  "name": "definitive-tool-ia-marketplace",
+  "description": "Marketplace para instalar Definitive Tool IA en Claude Code",
+  "owner": {
+    "name": "Lucas"
+  },
+  "plugins": [
+    {
+      "name": "definitive-tool-ia",
+      "source": "./../",
+      "description": "Router + hook + QA gate + comandos /shark-* (ex Shark Tank Design Kit)"
+    }
+  ]
+}

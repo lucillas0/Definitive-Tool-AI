@@ -1,0 +1,12 @@
+{
+  "name": "definitive-tool-ia",
+  "displayName": "Definitive Tool IA",
+  "version": "1.3.0",
+  "description": "8-moment UI router (brief, design, audit, code, find-skills, pitch, handoff, evolve) over Shark Tank skills + anime/three libs + reminder hook + commit QA gate + /shark-* commands.",
+  "author": {
+    "name": "Lucas"
+  },
+  "repository": "https://github.com/lucasmarkes/hairline",
+  "license": "MIT",
+  "keywords": ["design", "ui", "ux", "motion", "shadcn", "playwright", "skills", "audit"]
+}

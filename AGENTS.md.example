@@ -1,0 +1,32 @@
+# Copia este bloque a tu AGENTS.md (proyecto) o ~/.AGENTS.md (global).
+# Hace que la IA use las skills Shark Tank en los 8 momentos correctos.
+# Docs: https://www.codebuff.com/docs/tips/skills + knowledge-files
+
+## Shark Tank — 8 momentos (siempre activo)
+
+0. BRIEF: pedido vago -> momento 0 (thinking-orbs, agent-reach, mirofish).
+   Define usuario, tarea, pantallas y éxito antes de diseñar.
+1. DISENO: diseñar/prototipar/animar -> momento 1. COMBINACION OBLIGATORIA:
+   1 de diseno (taste, ui-ux-pro-max,
+   awesome-claude-design, thinking-orbs, mirofish, hallmark, hairline,
+   motion-design, design-motion-principles, mirofish, hallmark, hairline)
+   + 1 optimizadora/grupo (thinking-orbs razona, agent-reach alcance,
+   ecc reparte subtareas, arena compara 2 variantes). Nunca una sola aislada.
+2. AUDITORIA: auditar/revisar/QA/comparar -> momento 2 (shark, impeccable,
+   arena, playwright) con fallos + fixes.
+3. CODIGO: crear/implementar componentes o páginas -> momento 3
+   (shadcn, ecc, xtool, agent-reach, playwright) reutilizando el sistema.
+4. BUSQUEDA: si ninguna skill cubre el pedido -> momento 4, usa find-skills
+   (`npx skills find <tema del momento>`) antes de improvisar, verifica
+   installs/fuente y propone `npx skills add -g -y`.
+5. PITCH: presentar/elegir variante -> momento 5 (shark, arena, hallmark)
+   con veredicto y por qué gana.
+6. HANDOFF: pasar a sistema/tokens -> momento 6 (shadcn, ecc, ui-ux-pro-max,
+   xtool), lista reutilizado vs nuevo + deuda.
+7. EVOLUCION: UI vieja/unificar/migrar -> momento 7 (impeccable, arena,
+   playwright) + momento 4 si surge algo nuevo.
+
+Sigue `.agents/skills/shark-design/SKILL.md`. Si la skill concreta no está
+instalada, aplica el flujo base del momento y dime cuál instalar con
+`scripts/install-skills.sh`. Explícito: `/skill:shark-design`.
+Cierra siempre con: momento detectado, skill usada, skill a instalar.

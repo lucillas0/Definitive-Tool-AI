@@ -1,0 +1,239 @@
+{
+  "version": "1.3.0",
+  "updated": "2026-10-26",
+  "how_verified": "GitHub API (repo existe + stars) + raw.githubusercontent.com (SKILL.md real) + lectura de estructura. Veredicto find-skills: <100 stars = escepticismo; plugin != skill instalable con npx.",
+  "summary": {
+    "functional_skills": 8,
+    "functional_plugins": 3,
+    "not_skills_docs_only": 9
+  },
+  "skills": [
+    {
+      "name": "shark",
+      "repo": "alexyc9381/shark-skill",
+      "stars": 11,
+      "status": "functional-skill-low-trust",
+      "method": "skills-add",
+      "installRef": "alexyc9381/shark-skill",
+      "targetDir": "shark",
+      "skillPath": "skills/shark/SKILL.md",
+      "verified": true,
+      "note": "Repo y SKILL.md existen, pero SOLO 11 stars (<100). Regla find-skills: úsala con escepticismo, verifica su contenido antes de fiarte."
+    },
+    {
+      "name": "mirofish",
+      "repo": "666ghj/MiroFish",
+      "stars": 82102,
+      "status": "not-a-skill",
+      "method": "docs-only",
+      "installRef": "https://github.com/666ghj/MiroFish",
+      "targetDir": "mirofish",
+      "verified": true,
+      "note": "NO es skill: es una app completa (frontend+backend+docker). Sin SKILL.md. Úsala como referencia/inspiración de tableros, no instalable con npx."
+    },
+    {
+      "name": "hallmark",
+      "repo": "nutlope/hallmark",
+      "stars": 35794,
+      "status": "functional-skill",
+      "method": "skills-add",
+      "installRef": "nutlope/hallmark",
+      "targetDir": "hallmark",
+      "skillPath": "skills/hallmark/SKILL.md",
+      "verified": true,
+      "note": ""
+    },
+    {
+      "name": "hairline",
+      "repo": "lucasmarkes/hairline",
+      "stars": 3017,
+      "status": "functional-skill",
+      "method": "skills-add",
+      "installRef": "lucasmarkes/hairline",
+      "targetDir": "hairline",
+      "skillPath": "skills/hairline-adopt/SKILL.md + skills/hairline-create/SKILL.md (DOS subskills)",
+      "verified": true,
+      "note": "Son 2 skills: hairline-adopt (SVG->figura) y hairline-create (nueva figura). No una sola 'hairline'."
+    },
+    {
+      "name": "agent-reach",
+      "repo": "Panniantong/agent-reach",
+      "stars": 103288,
+      "status": "not-a-skill",
+      "method": "docs-only",
+      "installRef": "https://github.com/Panniantong/agent-reach",
+      "targetDir": "agent-reach",
+      "verified": true,
+      "note": "NO es skill: paquete Python agent_reach + docs. Sin SKILL.md. Úsalo como herramienta/docs, no instalable con npx."
+    },
+    {
+      "name": "arena",
+      "repo": "Jakeschincariol/arena-skill",
+      "stars": 997,
+      "status": "functional-skill",
+      "method": "skills-add",
+      "installRef": "Jakeschincariol/arena-skill",
+      "targetDir": "arena",
+      "skillPath": "skills/arena/SKILL.md",
+      "verified": true,
+      "note": ""
+    },
+    {
+      "name": "motion-design",
+      "repo": "lottiefiles/motion-design-skill",
+      "stars": 2528,
+      "status": "functional-skill",
+      "method": "skills-add",
+      "installRef": "lottiefiles/motion-design-skill",
+      "targetDir": "motion-design",
+      "skillPath": "skills/motion-design/SKILL.md",
+      "verified": true,
+      "note": ""
+    },
+    {
+      "name": "thinking-orbs",
+      "repo": "Jakubantalik/thinking-orbs",
+      "stars": 3866,
+      "status": "not-a-skill",
+      "method": "docs-only",
+      "installRef": "https://github.com/Jakubantalik/thinking-orbs",
+      "targetDir": "thinking-orbs",
+      "verified": true,
+      "note": "NO es skill: librería React (ThinkingOrb.tsx + engine). Sin SKILL.md. Úsala como componente, no instalable con npx."
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "stars": 140822,
+      "status": "functional-plugin",
+      "method": "claude-marketplace",
+      "installRef": "nextlevelbuilder/ui-ux-pro-max-skill (.claude-plugin/marketplace.json)",
+      "targetDir": "ui-ux-pro-max",
+      "verified": true,
+      "note": "Es un PLUGIN Claude (marketplace + plugin.json + skill.json v2.15.0), no 'npx skills add'. Instálalo como plugin."
+    },
+    {
+      "name": "taste",
+      "repo": "leonxlnx/taste-skill",
+      "stars": 102906,
+      "status": "functional-skill-renamed",
+      "method": "skills-add",
+      "installRef": "leonxlnx/taste-skill",
+      "targetDir": "taste-skill",
+      "skillPath": "skills/taste-skill/SKILL.md PERO name real: design-taste-frontend",
+      "verified": true,
+      "note": "SKILL.md existe pero su name es 'design-taste-frontend', NO 'taste'. Al invocar busca design-taste-frontend."
+    },
+    {
+      "name": "awesome-claude-design",
+      "repo": "VoltAgent/awesome-claude-design",
+      "stars": 4223,
+      "status": "not-a-skill",
+      "method": "docs-only",
+      "installRef": "https://github.com/VoltAgent/awesome-claude-design",
+      "targetDir": "awesome-claude-design",
+      "verified": true,
+      "note": "NO es instalable: solo README+LICENSE (awesome list). Úsala como galería de lectura."
+    },
+    {
+      "name": "design-motion-principles",
+      "repo": "kylezantos/design-motion-principles",
+      "stars": 1429,
+      "status": "functional-skill",
+      "method": "skills-add",
+      "installRef": "kylezantos/design-motion-principles",
+      "targetDir": "design-motion-principles",
+      "skillPath": "skills/design-motion-principles/SKILL.md",
+      "verified": true,
+      "note": ""
+    },
+    {
+      "name": "impeccable",
+      "repo": "pbakaus/impeccable",
+      "stars": 88900,
+      "status": "functional-plugin",
+      "method": "claude-marketplace",
+      "installRef": "pbakaus/impeccable (.claude-plugin/plugin.json: 1 skill + 24 comandos /impeccable)",
+      "targetDir": "impeccable",
+      "verified": true,
+      "note": "Es PLUGIN (1 skill + 24 comandos), no solo skill. Instálalo como plugin para tener /impeccable audit etc."
+    },
+    {
+      "name": "playwright",
+      "repo": "microsoft/playwright",
+      "stars": 98571,
+      "status": "not-a-skill",
+      "method": "docs-only",
+      "installRef": "https://github.com/microsoft/playwright",
+      "targetDir": "playwright",
+      "verified": true,
+      "note": "Repo general de testing, sin SKILL.md. Referencia para verificación en navegador (npm i playwright), no skill."
+    },
+    {
+      "name": "shadcn",
+      "repo": "shadcn-ui/ui",
+      "stars": 126602,
+      "status": "not-a-skill",
+      "method": "docs-only",
+      "installRef": "https://github.com/shadcn-ui/ui",
+      "targetDir": "shadcn",
+      "verified": true,
+      "note": "Repo UI general, sin SKILL.md. Referencia de componentes, no skill."
+    },
+    {
+      "name": "ecc",
+      "repo": "affaan-m/ecc",
+      "stars": 289615,
+      "status": "functional-plugin",
+      "method": "claude-marketplace",
+      "installRef": "affaan-m/ecc (.claude-plugin/plugin.json v2.2.3: 71 agents, 311 skills)",
+      "targetDir": "ecc",
+      "verified": true,
+      "note": "Es un MEGA-plugin (71 agentes, 311 skills). Instálalo como plugin; 'npx skills add' solo traería parte."
+    },
+    {
+      "name": "xtool",
+      "repo": "xtool-org/xtool",
+      "stars": 13798,
+      "status": "not-a-skill",
+      "method": "docs-only",
+      "installRef": "https://github.com/xtool-org/xtool",
+      "targetDir": "xtool",
+      "verified": true,
+      "note": "NO es skill: CLI Swift (reemplazo Xcode). Sin SKILL.md. Solo relevante si compilas iOS."
+    },
+    {
+      "name": "find-skills",
+      "repo": "vercel-labs/skills",
+      "stars": 36679,
+      "status": "functional-skill",
+      "method": "curl",
+      "installRef": "https://raw.githubusercontent.com/vercel-labs/skills/main/skills/find-skills/SKILL.md",
+      "targetDir": "find-skills",
+      "verified": true,
+      "note": "URL curl del PDF verificada OK."
+    },
+    {
+      "name": "anime",
+      "repo": "juliangarnier/anime",
+      "stars": 73885,
+      "status": "not-a-skill",
+      "method": "npm",
+      "installRef": "npm i animejs",
+      "targetDir": "anime",
+      "verified": true,
+      "note": "NO es skill (motor animación JS, sin SKILL.md). Librería npm: animejs. Úsala en momento 1 para motion."
+    },
+    {
+      "name": "three",
+      "repo": "mrdoob/three.js",
+      "stars": 116987,
+      "status": "not-a-skill",
+      "method": "npm",
+      "installRef": "npm i three",
+      "targetDir": "three",
+      "verified": true,
+      "note": "NO es skill (librería 3D JS, sin SKILL.md). Librería npm: three. Úsala en momento 1/3 para 3D."
+    }
+  ]
+}
