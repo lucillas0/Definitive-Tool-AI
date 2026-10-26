@@ -2,8 +2,17 @@
 
 > Antes Shark Tank Design Kit. El router interno `shark-design` y los comandos `/shark-*` mantienen su nombre para no romper instalaciones.
 
-Plugin/kit único para **Claude Code, Opencode y Freebuff** con las **18 skills de tu PDF "Shark tank"**.
+Plugin/kit único para **Claude Code, Opencode, Freebuff y ChatGPT** con las **18 skills de tu PDF "Shark tank"**.
 Instala las skills una vez y la IA las usa sola cada vez que diseñes o crees algo (router + instrucciones siempre-activas + hook recordatorio).
+
+### También compatible con ChatGPT
+
+Si usas ChatGPT (o cualquier agente de IA), puedes:
+- Copiar el bloque de prompt en [chatgpt/effective-skills-prompt.md](chatgpt/effective-skills-prompt.md) al inicio de tu chat o instrucciones personalizadas
+- Adjuntar `skills/shark-design/SKILL.md` directamente al chat (archivo ligero ~1-2KB)
+- Incluir el fichero `chatgpt/effective-skills-prompt.md` en tus "Project" o "Knowledge" de ChatGPT
+
+El router `SKILL.md` detecta el momento (0-7) y solo lee el archivo necesario, sin sobredimensionar el contexto.
 
 ## Qué incluye
 
